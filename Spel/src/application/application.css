@@ -1,0 +1,30 @@
+.menu-bar{
+  -fx-background-color: peru;
+  -fx-border-color:  green;
+ -fx-border-width: 2
+
+}
+
+.menu-bar .label {
+    -fx-font-size: 25 pt;
+    -fx-font-family: "Segoe Print";
+    -fx-text-fill: #dedede;
+
+}
+
+.menu-item:hover{
+	-fx-background-color: green ;
+}
+
+.menu:hover {
+    -fx-background-color: green;
+}
+
+.menu-item .label{
+     -fx-font-size: 25 pt;
+      -fx-background-color: #bc784e;
+}
+
+.context-menu {
+    -fx-background-color: #bc784e;
+}
